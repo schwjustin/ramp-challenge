@@ -1,7 +1,7 @@
 import Downshift from "downshift";
 import { useCallback, useState } from "react";
 import classNames from "classnames";
-import { DropdownPosition, GetDropdownPositionFn, InputSelectOnChange, InputSelectProps } from "./types";
+import { GetDropdownPositionFn, InputSelectOnChange, InputSelectProps } from "./types";
 
 export function InputSelect<TItem>({
   label,
